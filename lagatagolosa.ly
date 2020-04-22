@@ -193,7 +193,7 @@ PartPOneVoiceOneChords =  \chordmode {
         f4:5 s4 s8 s8 | % 64
         a2.:5 | % 65
         a4:5 s4 s8 s8 | % 66
-        s4 s8 s8 s4 | % 67
+        e8:7 s8 s4 s8 s8 | % 67
         e8:7 s8 s4 s8 s8 }
     \alternative { {
             | % 68
