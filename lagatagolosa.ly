@@ -1,6 +1,6 @@
 
 \version "2.16.2"
-% automatically converted by musicxml2ly from lagatagolosa.xml
+% la versión del programa 2.20 no reconoce :m5 se procede al cambio con vim :g/:m5/s//:m/g
 
 \header { title = "La Gata Golosa" 
 subtitle = "Pasillo" 
@@ -9,7 +9,7 @@ meter  = ""
 composer = "Fulgencio García"						                                   %====Partitura normal
 poet = ""
 tagline =   \markup  \fontsize #-3                                                                              %====Partitura normal=====
-            \rounded-box \bold "versión abril 22 2020 09:55 www.profedecuerdas.blogspot.com" 
+            \rounded-box \bold "versión abril 23 2020 20:43 www.profedecuerdas.blogspot.com" 
    }     
 
 #(set-global-staff-size 20)
@@ -126,8 +126,8 @@ PartPOneVoiceOneChords =  \chordmode {
             | % 2
             a8:5 s8 s8 s8 s4 | % 3
             fis8:7 s8 s8 s8 s4 | % 4
-            b8:m5 s8 s8 s8 s4 | % 5
-            b8:m5 s8 s8 s8 s8 s8 | % 6
+            b8:m s8 s8 s8 s4 | % 5
+            b8:m s8 s8 s8 s8 s8 | % 6
             e8:7 s8 s8 s8 s4 | % 7
             e8:7 s8 s8 s8 s4 | % 8
             a8:5 s8 s8 s8 s4 | % 9
@@ -135,7 +135,7 @@ PartPOneVoiceOneChords =  \chordmode {
             a8:5 s8 s8 s8 s4 | % 11
             a8:7 s8 s8 s8 s4 | % 12
             d8:5 s8 s8 s8 s4 | % 13
-            d8:m5 s8 s8 s8 s4 | % 14
+            d8:m s8 s8 s8 s4 | % 14
             a8:5 s8 s8 s8 s4 | % 15
             e8:7 s8 s8 s8 s8 s8 }
         \alternative { {
@@ -149,33 +149,33 @@ PartPOneVoiceOneChords =  \chordmode {
         a4:5 s4 s4 | \barNumberCheck #20
         a4:5 s8 s8 s4 | % 21
         fis4:7 s8 s8 s8 s8 | % 22
-        b4:m5 s4 s8 s8 | % 23
-        b4:m5 s8 s8 s8 s8 | % 24
+        b4:m s4 s8 s8 | % 23
+        b4:m s8 s8 s8 s8 | % 24
         e4:7 s4 s8 s8 | % 25
         e4:7 s8 s8 s8 s8 | % 26
         a4:5 s4 s8 s8 | % 27
         a4:7 s8 s8 s8 s8 | % 28
         d4:5 s4 s8 s8 | % 29
-        d4:m5 s8 s8 s8 s8 | \barNumberCheck #30
+        d4:m s8 s8 s8 s8 | \barNumberCheck #30
         a4:5 s4 s8 s8 | % 31
         fis4:7 s8 s8 s8 s8 | % 32
-        b4:m5 s4 s8 s8 | % 33
+        b4:m s4 s8 s8 | % 33
         e4:7 s8 s8 s8 s8 | % 34
         a8:5 s8 s8 s8 s8 s8 | % 35
         a8:5 s8 s8 s8 s8 s8 | % 36
         a8:5 s8 s8 s8 s8 s8 | % 37
         fis8:7 s8 s8 s8 s8 s8 | % 38
-        b8:m5 s8 s8 s8 s8 s8 | % 39
-        b8:m5 s8 s8 s8 s8 s8 | \barNumberCheck #40
+        b8:m s8 s8 s8 s8 s8 | % 39
+        b8:m s8 s8 s8 s8 s8 | \barNumberCheck #40
         e8:7 s8 s8 s8 s8 s8 | % 41
         e8:7 s8 s8 s8 s8 s8 | % 42
         a8:5 s8 s8 s8 s8 s8 | % 43
         a8:7 s8 s8 s8 s8 s8 | % 44
         d8:5 s8 s8 s8 s8 s8 | % 45
-        d8:m5 s8 s8 s8 s8 s8 | % 46
+        d8:m s8 s8 s8 s8 s8 | % 46
         a8:5 s8 s8 s8 s8 s8 | % 47
         fis8:7 s8 s8 s8 s8 s8 | % 48
-        b8:m5 s8 s8 s8 s8 s8 | % 49
+        b8:m s8 s8 s8 s8 s8 | % 49
         e8:7 s8 s8 s8 s8 s8 | \barNumberCheck #50
         a4:5 s8 s8 s4 | % 51
         a8:5 s8 s8 s8 s8 s8 \bar "||"
@@ -183,8 +183,8 @@ PartPOneVoiceOneChords =  \chordmode {
         a4:5 s4 s8 s8 | % 54
         f2.:5 | % 55
         f4:5 s4 s8 s8 | % 56
-        g2.:m5 | % 57
-        g4:m5 s4 s8 s8 | % 58
+        g2.:m | % 57
+        g4:m s4 s8 s8 | % 58
         c4:7 s8 s8 s4 | % 59
         c8:7 s8 s4 s8 s8 | \barNumberCheck #60
         f4:5 s8 s8 s4 | % 61

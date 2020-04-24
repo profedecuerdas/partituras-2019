@@ -1,6 +1,6 @@
 
 \version "2.16.2"
-% automatically converted by musicxml2ly from eljuguetónmelodiasola.xml
+% abril 23 2020 modificado con vim :g/:m5/s//:5/g por que :m5 no se reconoció como mayor en lugar de menor.
 
    \header { title = "El Juguetón" 
 subtitle = "Bambuco" 
@@ -9,7 +9,7 @@ meter  = ""
 composer = ""						                                   %====Partitura normal
 poet = ""
 tagline =   \markup  \fontsize #-3                                                                              %====Partitura normal=====
-            \rounded-box \bold "www.profedecuerdas.blogspot.com" 
+            \rounded-box \bold "version abril 23 2020 20:38 www.profedecuerdas.blogspot.com" 
    }   
 
 #(set-global-staff-size 22.8)
@@ -80,26 +80,26 @@ PartPOneVoiceOne =  \relative g' {
 
 PartPOneVoiceOneChords =  \chordmode {
     s4 s4 s8 s8 | % 2
-    e8:m5 s8 s8 s8 s8 s8 | % 3
+    e8:m s8 s8 s8 s8 s8 | % 3
     s8 s8 s8 s8 s8 s8 | % 4
     c4:5 s8 s8 s8 s8 | % 5
     b8:7 s8 s4 s8 s8 | % 6
     s8 s8 s8 s8 s8 s8 | % 7
     s8 s8 s8 s8 s8 s8 | % 8
     s4 s8 s8 s8 s8 | % 9
-    e8:m5 s8 s4 s8 s8 | \barNumberCheck #10
+    e8:m s8 s4 s8 s8 | \barNumberCheck #10
     s8 s8 s8 s8 s8 s8 | % 11
     s8 s8 s8 s8 s8 s8 | % 12
     e4:7 s8 s8 s8 s8 | % 13
-    a8:m5 s8 s4 s8 s8 | % 14
+    a8:m s8 s4 s8 s8 | % 14
     c4:5 s8 s8 s8 s8 | % 15
     s8 s8 s4 s8 s8 | % 16
     fis4:7 s8 s8 s4 | % 17
-    b4:7 a4:m5 e4:m5 | % 18
+    b4:7 a4:m e4:m | % 18
     b4:7 s8 s8 s8 s8 | % 19
     s8 s8 s4 s8 s8 | \barNumberCheck #20
     s8 s8 s8 s8 s8 s8 | % 21
-    e8:m5 s8 s2 \bar "|."
+    e8:m s8 s2 \bar "|."
     s8 s8 s8 s8 s8 s8 | % 23
     d8:7 s8 s2 | % 24
     s8 s8 s8 s8 s8 s8 | % 25
@@ -111,15 +111,15 @@ PartPOneVoiceOneChords =  \chordmode {
     s8 s8 s8 s8 s8 s8 | % 31
     b8:7 s8 s2 | % 32
     s4 s8 s8 s8 s8 | % 33
-    e8:m5 s8 s2 | % 34
+    e8:m s8 s2 | % 34
     s8 s8 s8 s8 s8 s8 | % 35
     b8:7 s8 s2 | % 36
     s8 s8 s8 s8 s8 s8 | % 37
-    e2:m5 s8 s8 \bar "|."
+    e2:m s8 s8 \bar "|."
     e8:5 s8 s8 s8 s8 s8 | % 39
     s8 s8 s4 s8 s8 | \barNumberCheck #40
     cis4:7 s8 s8 s8 s8 | % 41
-    fis8:m5 s8 s4 s8 s8 | % 42
+    fis8:m s8 s4 s8 s8 | % 42
     s8 s8 s8 s8 s8 s8 | % 43
     b8:7 s8 s4 s8 s8 | % 44
     s4 s8 s8 s8 s8 | % 45
@@ -128,7 +128,7 @@ PartPOneVoiceOneChords =  \chordmode {
     s8 s8 s4 s8 s8 | % 48
     e4:7 s8 s8 s8 s8 | % 49
     a8:5 s8 s4 s8 s8 | \barNumberCheck #50
-    a8:m5 s8 s8 s8 s8 s8 | % 51
+    a8:m s8 s8 s8 s8 s8 | % 51
     e8:5 s8 s8 s8 s8 s8 | % 52
     b8:7 s8 s8 s8 s8 s8 | % 53
     e4:5 s4 s4 \bar "|."
