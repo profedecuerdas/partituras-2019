@@ -41,7 +41,26 @@ b2 g8. a16 b8. c16 |
 d4 c8. b16 a8. c16 b8. a16 |
 g2 r8. a16 b8. c16 |
 d4 c8. b16 a8. c16 b8. a16
-g2    }
+g2  r4 b,8. b16 |   % voz masculina  parte menor
+e8. e16 e8. e16 fis8. fis16 e8. fis16  |
+g2 e4 c'8. b16 |
+a4 ~ a8. a16 a8. a16 g8. g16 |
+fis2 r8. a16 a8. b16 |
+c8. c16 c8. b16 a8. c16 b8. a16 |
+b2 g4 g8. g16 |
+fis4 fis8. fis16 a8. g16 fis8. dis16 |
+e2 r8. d'16 d8. d16 |   % somos el 
+d4 c8. b16 a4 g8. a16 |  % ma de nuestra Pe
+b2 g4 e8. fis16 | %  reira ciuda
+g4 g8. g16 a8. a16 a8. a16 | % danos altivos con ho
+b2 r8. fis16 fis8. g16 | %nor
+a4 r8. b16 c8. b16 a8. c16 |
+b2 d4 a8. g16 |
+fis4 fis8. g16 a8. a16  b8. b16 |
+g2  r4 d8. d16 |
+
+
+}
 \addlyrics { \skip4 \skip4 \skip4 \skip4 \skip4 
              \skip4 \skip4 \skip4 \skip4 \skip4 
              \skip4 \skip4 \skip4 \skip4 \skip4 
@@ -52,8 +71,16 @@ g2    }
              \skip4 \skip4 \skip4 \skip4 
              \skip4 \skip4 \skip4 \skip4 
     
-            un be llo dí a sur gió con su pre sen cia al or gu llo de la co mu ni dad nues tro co le gio que-es fuen te de sa pien cia don de se vi ven va lo res de-her man dad don de se vi ven va lo res de-her man dad}
-
+            un be llo dí a sur gió con su pre sen cia al or gu llo de la co mu ni dad nues tro co le gio que-es fuen te de sa pien cia don de se vi ven va lo res de-her man dad don de se vi ven va lo res de-her man dad
+            hay un sol que dí a dí a res plan de ce 
+            hay un sol en es ta gran ciu dad
+            es la ni ñez que con or gu llo pre va le ce
+            muy en me dio de tan taad ver si dad
+            so mos el al ma de nues tra Pe rei ra 
+            ciu da da nos al ti vos con ho nor
+            que co ra zón y gra cia siem preen tre gran
+            aes te claus tro re fu gio de a mor
+            } 
 \set Score.skipBars = ##t
       %%\set Score.melismaBusyProperties = #'()
       \override Score.BarNumber #'break-visibility = #end-of-line-invisible %%every bar is numbered.!!!
@@ -77,7 +104,7 @@ g2    }
 		
 		tagline =
   				\markup  \fontsize #1
-    				\rounded-box \bold "Version Julio 2024 www.profedecuerdas.blogspot.com"
+    				\rounded-box \bold "Version Enero 27 2025 www.profedecuerdas.blogspot.com"
                                 
                 
 
