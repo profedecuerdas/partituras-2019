@@ -96,9 +96,9 @@ g2  r4 d8. d16 |
              \skip4 \skip4 \skip4 \skip4 
              \skip4 \skip4 \skip4 \skip4 
     
-            un be llo dí a sur gió con su pre sen cia al or gu llo de la co mu ni dad nues tro co le gio que-es fuen te de sa pien cia don de se vi ven va lo res de-her man dad don de se vi ven va lo res de-her man dad
+            un be llo dí a sur gió con su pre sen cia pa ra-or gu llo de la co mu ni dad nues tro co le gio que-es fuen te de sa pien cia don de se vi ven va lo res de-her man dad don de se vi ven va lo res de-her man dad
             hay un sol que dí a dí a res plan de ce 
-            hay un sol en es ta gran ciu dad
+            hay un sol en nues tra gran ciu dad
             es la ni ñez que con or gu llo pre va le ce
             muy en me dio de tan taad ver si dad
             so mos el al ma de nues tra Pe rei ra 
