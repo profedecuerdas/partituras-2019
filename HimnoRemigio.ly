@@ -3,18 +3,43 @@
 
 \partial 4 s4
     
-    g1 | % 3
-    e1:m  | % 4
-    c1 |
-    d1:7
+    g1 | % 1 
+    e1:m  | % 2
+    c1 |  %3
+    d1:7  | % 4
 
-    g1 | % 3
-    e1:m  | % 4
-    c1 |
-    d1:7
+    g1 | % 6
+    e1:m  | % 7
+    c1 | % 8
+    d1:7 | %9
 
-    g1 | % 3
+    g2 d2:7 | % 10
+    g1 | %11
+    c1 | %12
+    d1:7  | % 13
+    c2 d2:7 | %14
+    g1 | % 15
+    c2 d2:7 | %16
+    g1 | % 17
+    c2 d2:7 | %18
 
+    g1 | %19
+    e2:m b2:7 | %20
+    e1:m | %21
+    a1:m | %22
+    b1:7 | %23
+    a2:m b2:7 |%24
+    e1:m |%25
+    b1:7 | %26
+    e1:m | %27
+    d1:7 | %28
+    g1   | %29
+    e2:m a2:m | %30
+    b1:7 | % 31
+    a1:m | % 32
+    g1 | %33
+    d1:7 | %34
+    g1 |
     } 
     \relative g' {
     \clef "treble" \key g \major \time 4/4 
@@ -104,7 +129,7 @@ g2  r4 d8. d16 |
 		
 		tagline =
   				\markup  \fontsize #1
-    				\rounded-box \bold "Version Enero 27 2025 www.profedecuerdas.blogspot.com"
+    				\rounded-box \bold "Version Feb 3 2025 www.profedecuerdas.blogspot.com"
                                 
                 
 
