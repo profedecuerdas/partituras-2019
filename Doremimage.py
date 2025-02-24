@@ -63,10 +63,10 @@ def generate_measure(measure_number, notes, texts):
             text_rect = text_surface.get_rect(center=(x + NOTE_WIDTH/2, height - 25))
             surface.blit(text_surface, text_rect)
 
-    measure_text = font.render(f"Measure {measure_number}", True, (0, 0, 0))
+    measure_text = font.render(f"Compás {measure_number}", True, (0, 0, 0))
     surface.blit(measure_text, (10, 10))
 
-    output_filename = f"measure_{measure_number}.png"
+    output_filename = f"compas_{measure_number}.png"
     pygame.image.save(surface, output_filename)
     print(f"Generated {output_filename}")
 
